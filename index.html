@@ -1,12 +1,823 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles2.css"> -->
+    <title>Jorge Martinez CV</title>
 </head>
+
 <body>
-    <P>Hello world</P>
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <input class="side-menu" type="checkbox" id="side-menu" />
+                <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+                <nav class="main_menu">
+                    <ul>
+                        <li class="navs" id="menu1"><a href="#hero">Inicio</a></li>
+                        <li class="navs" id="menu2"><a href="#campus">Campus 42</a></li>
+                        <li class="navs" id="menu3"><a href="#availability">24/7</a></li>
+                        <li class="navs" id="menu4"><a href="#soft">Soft Skills</a></li>
+                        <li class="navs" id="menu5"><a href="#skillset">Skillset</a></li>
+                        <li class="navs" id="menu6"><a href="#certs">Perfiles</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="signature_wrapper">
+            <div class="signature"><img src="img/My signature header.png" alt="My profile picture"></div>
+        </div>
+        <section id="hero">
+            <div class="wrapper">
+                <div class="letter">
+                    <div>
+                        <h2>Buenos días,</h2>
+                        <p>gracias por dedicar su tiempo a leer mi CV y carta de presentación.
+                            <br><br>
+                            Estoy muy interesado en vivir y trabajar en Alemania. Siempre ha
+                            sido un país que me ha llamado la atención. Para mí, esta es una
+                            oportunidad de mejorar mi experiencia profesional, conocer el país,
+                            su cultura, mejorar el Alemán, y tener mayor estabilidad profesional.
+                        </p>
+                    </div>
+                    <p>
+                        Mis titulaciones, tal vez no sean las mejores (de momento), pero sí mi
+                        experiencia en distintas empresas y distintos países, la cual respalda mi capacidad.
+                        Además de ello, tengo formación no reglada, que me ha permitido expandir mi conocimiento.
+                    </p>
+                    <p>
+                        Entiendo que no me conocen, y no saben que pueden esperar de mí. Por ello, no tengo ningún
+                        problema en realizar algún tipo de prueba inicial y/o trabajar de forma temporal, como 
+						primer tanteo. Para, luego, obtener una propuesta de trabajo más seria. Mi intención es
+                        trabajar duro. Y demostrar mi valor. Me gustaría que esto se valore de forma adecuada.
+                    </p>
+                    <p>
+                        No tengo ningún problema para desplazarme allá donde me necesiten, superar exámenes de
+                        habilidades / idiomas, trabajar noches, fines de semana, etc. O, una vez allí, tener que
+                        desplazarme cada cierto tiempo a países donde la empresa tenga tareas por solucionar. Mi
+                        flexibilidad es bastante grande, estoy acostumbrado a desplazarme, y a trabajar bajo presión.<br>
+                        Todo lo indicado en mi CV, es fácilmente demostrable.
+                    </p>
+                    <p>
+                        <b>PD:</b> Por favor, tengan en consideración que no soy ni diseñador gráfico ni diseñador web,
+                        sino desarrollador web y programador de aplicaciones. Las técnicas utilizadas son una mezcla
+                        de distintos formatos tan solo para mostrar mis habilidades, no son reflejo de proyectos finales.
+                        Gracias.
+                    </p>
+                    <div class="pimage">
+                        <img src="https://drive.google.com/uc?export=view&id=1HbeZaziuiZ9VC0qoaDGyvW_89vlZJnP-" alt="My profile picture">
+                    </div>
+                </div>
+                <div class="call_to_action_wrapper"><button class="buttons call_to_action"><a href="mailto:jorge.martinez.work@gmail.com">¡Construyamos algo juntos!</a></button> </div>
+            </div>
+            <div class="section_footer">
+                <div class="wrapper">
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <section id="campus">
+            <div class="wrapper">
+                <input type="checkbox" id="collapse-toggle-campus" class="toggle" checked>
+                <label for="collapse-toggle-campus" class="label_heading">
+                    <div class="header_wrap icon-left">
+                        <img src="/img/planner-48.png" alt="planner">
+                        <h2>CAMPUS 42</h2>
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </div>
+                </label>
+                <div class="intro">
+                    <h3 class="left">Formación continua.</h3>
+                    <p>
+                        Recientemente hice una "Piscina de programación en C" (como una especie de
+                        maratón de programadores) de Ecole 42 (Campus 42). La cual, completarla, ya es
+                        un reto en sí:
+                    </p>
+                </div>
+                <div class="content">
+                    <ul>
+						<li>No es un bootcamp. Es mucho más duro, y se trata de un test continuo.</li>
+                        <li>26 días ininterrumpidos.</li>
+                        <li>Una media de 100h/semanales de trabajo por candidato.</li>
+                        <li>El 50% de los candidatos no suele llegar al examen final.</li>
+                        <li>Entre semana se deben de hacer 13 proyectos que contienen de 3 a 10 ejercicios por proyecto. (trabajo individual)</li>
+                        <li>Cada viernes hay un examen de 4h, en C puro, usando vim.</li>
+                        <li>Tras el examen, cada fin de semana comienza un proyecto en grupo con 2
+                            personas más, elegidas al azar por un ordenador. (trabajo en equipo)</li>
+                        <li>Una parte del proceso fue en español, otra en inglés, y otra en francés.</li>
+                        <li>La última semana, no había proyecto de fin de semana, si no un proyecto especial de 3 días, durante la semana, y
+                            solo éramos dos en cada equipo (trabajo en equipo, con más presión).
+                        </li>
+                        <li>El último examen, fue de 8h seguidas.</li>
+                    </ul>
+                    <h3 class="right">Los objetivos de estas "piscinas" son, a groso modo:</h3>
+                    <ul>
+                        <li>Trabajar individualmente y buscarse la vida para solucionar problemas.</li>
+                        <li>Trabajar en equipo, y ser capaces de coordinarse para sacar tareas adelante.</li>
+                        <li>Usa técnicas de "clean code".</li>
+                        <li>Ver como aguantamos la presión y la frustración.</li>
+                        <li>Aprender cómo usar los algoritmos y las estructuras de datos de forma práctica</li>
+						<li>Aunque fuese una competición, ayudar siempre a nuestros compañeros (como debería ser el trabajo en equipo en todas las empresas)</li>
+                    </ul>
+                    <p>
+                        Yo, personalmente, me apunté a todos los eventos extra que se solicitaron. Aprobé todos los
+                        exámenes que nos pusieron.
+                        Pero no conseguí superar con mis compañeros ninguno de los proyectos grupales. Se entregaron, pero no cumplieron todos los requisitos.
+						No se preocupen por esto, ya que es lo normal. De 180 personas, solo 2 equipos(5 personas en total) aprobaron 1 de los 4 proyectos a los que se
+                        presentaron. La estadística de 42 nos dice, que, a nivel mundial, solo de un 1-3% aprueban estos
+                        proyectos. Son difíciles de hacer como única tarea. Pero más difíciles, cuando añadimos: proyectos
+                        individuales, ayudas a compañeros, charlas, eventos y exámenes.<br><br>
+
+                        Toda la información que les doy, es fácilmente verificable, si contactan con 42 en cualquier
+                        país (España, Francia, Alemania, etc.). A nosotros (los participantes), no nos dan mucha info,
+                        pero sí se la dan, de forma muy completa, a las empresas interesadas.
+                    </p>
+                </div>
+                <div class="call_to_action_wrapper"><button class="buttons call_to_action"><a href="mailto:jorge.martinez.work@gmail.com">¿Desea saber más?</a></button> </div>
+                <p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+            </div>
+        </section>
+        <section id="soft">
+            <div class="section_header">
+                <div class="wrapper">
+                    <h2>Soft Skills</h2>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="short_wrapper">
+                    <ul>
+                        <li>Capacidad de trabajar tanto en equipo como individualmente.</li>
+                        <li>Comunicarme en múltiples idiomas.</li>
+                        <li>Hablar en público para pequeñas audiencias (las grandes las estoy trabajando).</li>
+                        <li>He preparado remotamente (Training) a diverso personal de la empresa.</li>
+                        <li>Soy un solucionador de problemas.</li>
+                    </ul>
+                </div>
+                <div class="long_wrapper">
+                    <img src="/img/Soft-Skills-and-Automation-10.22.18-small-min.jpg" alt="People in the office">
+                </div>
+                <div class="call_to_action_wrapper"><button class="buttons call_to_action"><a href="mailto:jorge.martinez.work@gmail.com">¿Ante la duda? ¡Consúlteme sin Problemas!</a></button> </div>
+            </div>
+            <div class="section_footer">
+                <div class="wrapper">
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <section id="languages">
+            <div class="wrapper">
+                <div class="two_column">
+                    <div class="long_wrapper">
+                        <img src="/img/german.jpg" alt="People in the office">
+                    </div>
+                    <div class="short_wrapper">
+                        <h2>Idiomas</h2>
+                        <div class="row"><span><img src="https://img.icons8.com/color/16/null/spain.png" alt="Spain flag"></span><span>Español</span><span>C2</span></div>
+                        <div class="row"><span><img src="https://img.icons8.com/color/16/null/great-britain.png" alt="UK flag"></span><span>English</span><span>C2</span></div>
+                        <div class="row"><span><img src="https://img.icons8.com/color/16/null/france.png" alt="France flag"></span><span>Français</span><span>B1</span></div>
+                        <div class="row"><span><img src="https://img.icons8.com/color/16/null/italy.png" alt="Italy flag"></span><span>Italiano</span><span>A2-B1</span></div>
+                        <div class="row"><span><img src="https://img.icons8.com/color/16/null/germany.png" alt="Germany flag"></span><span>Deutsch</span><span>A1</span></div>
+                    </div>
+                </div>
+                <p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+			</div>
+        </section>
+        <section id="availability">
+            <div class="wrapper">
+                <input type="checkbox" id="collapse-toggle-availability" class="toggle" checked>
+                <label for="collapse-toggle-availability" class="label_heading">
+                    <div class="header_wrap icon-left">
+                        <img src="/img/planner-48.png" alt="planner">
+                        <h2>Disponibilidad para trabajar</h2>
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </div>
+                </label>
+
+                <div class="intro">
+                    <p>
+                        Como verán mi flexibilidad en el trabajo es bastante amplia. Estoy totalmente abierto a... :
+                    </p>
+                </div>
+                <div class="content">
+                    <ul class="grid_columns">
+                        <li>Trabajar findes</li>
+                        <li>Trabajar noches</li>
+                        <li>Trabajar en grandes ciudades o pequeños pueblos</li>
+                        <li>Trabajar/Training en una ciudad A, y en 1-3 meses mudarme a otra ciudad B</li>
+                        <li>Viajar a los alrededores de Alemania (Austria, Suiza, Francia,...)</li>
+                        <li>No tengo carnet de conducir. Disponibilidad para sacarlo allí.</li>
+                        <li>Aprender vocabulario alemán específico para la empresa.</li>
+                        <li>Aprender librerías específicas para la empresa.</li>
+                    </ul>
+                </div>
+                <p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+            </div>
+        </section>
+        <section id="achievements">
+            <div class="wrapper">
+                <input type="checkbox" id="collapse-toggle-achievements" class="toggle">
+                <label for="collapse-toggle-achievements" class="label_heading">
+                    <div class="header_wrap icon-right">
+                        <h2>Retos superados</h2>
+                        <img src="/img/trophy-cup-100.png" width="64px" alt="trophy">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </div>
+                </label>
+                <div class="intro">
+                    <p>
+                        A lo largo de mi vida he logrado distintas cosas tanto en el trabajo como en lo personal,
+                        las cuales considero que me pueden aportar a nivel profesional.
+                    </p>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Aprender múltiples idiomas.</li>
+                        <li>Gestionar un grupo de intercambio de idiomas durante 12 años, sin ánimo de lucro.</li>
+                        <li>Impartir remote training.</li>
+                        <li>Superar la piscina de programación en C de &nbsp;<a href="#campus">Campus 42</a></li>
+                        <li><span>Montar una compleja estructura de servidores (x32, x64, Arm64). Bare-metal + VMs(Proxmox, Qemu, VBox, y VMware).<br>
+                                Con las siguientes herramientas:<br><br>
+                            </span>
+                            <ul class="grid_columns">
+                                <li>Terraform</li>
+                                <li>MASS</li>
+                                <li>Cloud Config</li>
+                                <li>docker</li>
+                                <li>kubernetes</li>
+                                <li>nginx</li>
+                                <li>NPM</li>
+                                <li>pfsense</li>
+                                <li>Gitlab</li>
+                                <li>Gittea</li>
+                                <li>Code-server</li>
+                                <li>portainer</li>
+                                <li>etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="wrapper">
+                        <div class="short_wrapper">
+                            <h3>En progreso...</h3>
+                            <ul>
+                                <li>Estructuras de datos.</li>
+                                <li>Alemán A2->B1</li>
+                                <li>Algoritmos</li>
+                                <li>"Design Patterns"</li>
+                                <li>Documentación Técnica.</li>
+                                <li>Markdown+</li>
+                                <li>Emmet</li>
+                            </ul>
+                        </div>
+                        <div class="long_wrapper">
+                            <h3>Intereses Profesionales</h3>
+                            <ul>
+                                <li>Documentación Técnica.</li>
+                                <li>Alemán y Francés B2 (mínimo).</li>
+                                <li>Project Management.</li>
+                                <li>Team Leading.</li>
+                                <li>Trabajo remoto cuando llegue la oportunidad.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+            </div>
+        </section>
+        <section id="skillset">
+            <div class="wrapper">
+				<input type="checkbox" id="toggle-1" class="toggle" checked>
+                <label for="toggle-1" class="icon">
+					<div class="header_wrap icon-left">
+                    	<h2> Skillset </h2>
+						<i class="fa fa-chevron-left" aria-hidden="true"></i>
+					</div>
+                </label>
+                <p class="intro">
+					En esta sección voy a listar todas mis habilidades y conocimientos. Cada uno de ellos está colapsado para facilitar la lectura.<br>
+					Además, uso barras basadas en las puntuaciones de mis exámenes, para calcular de forma justa mi nivel en cada materia. He intentado ser conservador con los resultados.<br> 
+					Donde pone “Soy un experto”, yo diría que, tal vez, es mucho.<br>
+					Donde pone “Soy un novato”, diría que se queda un poco corto.<br>
+                </p>
+                <div class="content">
+                    <div class="card_section">
+                        <input type="checkbox" id="toggle-fullstack" class="toggle" checked>
+                        <label for="toggle-fullstack" class="icon">
+                            <h3>Frontent & Backend</h3>
+                        </label>
+                        <ul class="card_list">
+                            <li class="card_block">
+                                <button type="button" class="collapsible">HTML
+                                    <div class="score" style="color: green;">68%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 60%;"></span>
+                                        <span class="bar med" style="width: 8%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Empecé con HTML en el '99, pero lo abandoné. Y aunque hice alguna cosita más posteriormente, no fue hasta el 2017 que volví con ello</p>
+                                    <p class="xp">Lundagatan, 2017</p>
+                                    <p class="studies">Distintos cursos en internet.</p>
+                                </div>
+                            </li>
+                            <li class="card_block">
+                                <button type="button" class="collapsible">CSS
+                                    <div class="score" style="color: yellow;">80%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 60%;"></span>
+                                        <span class="bar med" style="width: 20%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Al igual que con HTML, es algo en lo que he ido y vuelto a lo largo de los años, haciendo un fuerte hincapié en ello del 2017 hasta hoy.</p>
+                                    <p class="xp">Lundagatan, 2017<br>
+                                        Esta misma web, 2023
+                                    </p>
+                                    <p class="studies">Certificaciones de Sololearn, 2023<br>
+                                        Cursos Pluralsight, 2023<br>
+                                        Udemy + Skillshare, 2020
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card_block">
+                                <button type="button" class="collapsible">Javascript
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Mi historia con Javascript, inicialmente es muy parecida a mis trabajos en HTML y CSS. 
+									   Con la diferencia de que, Javascript, sí es algo que he usado en mi vida de diario.
+									   Montar scripts para hacer múltiples tareas ha sido una constante a lo largo de los años.
+									</p>
+									<p class="studies">Certificaciones de Sololearn, 2023<br>
+                                        Cursos Pluralsight, 2023<br>
+                                        Udemy + Skillshare, 2020<br>
+										Youtube, sin-fecha.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card_block">
+                                <button type="button" class="collapsible">.NET
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>.NET es algo diferente. Empecé con él como una extensión de C & C++. Estudiando y trabajando en varios sitios. 
+										Montando una app con conexión a MS-SQL. Y haciendo webs, usando un CMS llamado Umbraco</p>
+									<p class="xp">Slot og gods, 2016<br>
+										Lundagatan, 2017<br>
+                                        Esta misma web, pronto
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="card_block">
+                                <button type="button" class="collapsible">.NET Core
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Mi conocimiento y experiencia en .NET Core, se basa solo en .NET standard, y 100 páginas de 1300 que leído hasta ahora del libro "C# 7 and .NET Core 2.0" de Wrox Ed.</p>
+                                </div>
+                            </li>
+                            <li class="card_block">
+                                <button type="button" class="collapsible">PHP
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>No he trabajado profesionalmente con PHP. Solo he flirteado con el mismo gracias a Wordpress y Prestashop. Pero muy por encima</p>
+                                </div>
+                            </li>
+                            <li class="card_block">
+                                <button type="button" class="collapsible">Node.js
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Node.js está en mi lista de pendientes. Cuanto termine con algunos frameworks de JS, este será mi siguiente paso.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="card_section">
+                        <input type="checkbox" id="toggle-oop" class="toggle">
+                        <label for="toggle-oop" class="icon">
+                            <h3>Functional & OOP</h3>
+                        </label>
+                        <div class="card_list">
+                            <div class="card_block">
+                                <button type="button" class="collapsible">C Language
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 60%;"></span>
+                                        <span class="bar med" style="width: 8%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Empecé estudiando C en los 90. Con TurboC de Borland y un curso de IBM. Se me hizo muy cuesta arriba, y no fue hasta años después que lo retomé.
+									   No he trabajado profesionalmente en C puro. Estudié en el FP y por mi cuenta. Y posteriormente, Pluralsight, Youtube, Campus 42, etc.<br>
+									   También he trasteado un poco con dispositivos como Raspberry pi y Arduino, haciendo un ligero uso de mis conocimientos de C.
+									</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">C++
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Con C++ solo tuve una pequeña introducción hace años, y no lo volví a tocar. No estoy seguro de si trataré con él, o me pasaré a alguna de sus "nuevas versiones" en Go o Carbon</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">C#
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Mi experiencia con C# va cogida de la mano con .NET, las aprendí en paralelo. Empecé con él como una extensión de C & C++. Estudiando y trabajando en varios sitios. 
+										Montando una app con conexión a MS-SQL. Y haciendo webs, usando un CMS llamado Umbraco</p>
+									<p class="xp">Slot og gods, 2016<br>
+										Lundagatan, 2017<br>
+                                        Esta misma web, pronto
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Python
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Python está en mi lista para un futuro muy cercano.</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Go
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Go está en mi lista para un futuro bastante cercano, pero no todavía.</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Basic
+                                    <div class="score" style="color: green;">30%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 30%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Basic fue uno de los primeros lenguajes que aprendí desde un Sinclair Spectrum. 
+									   Posteriormente, seguiría con el Basic de MS-DOS, compilando programas y todo.
+									   Y, finalmente, hice apps muy muy simples en Visual Basic, justo antes de pasarme
+									   al Visual C.
+									</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Java
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Este es un lenguaje en el que no tengo ningún interés. Creo que el tiempo dedicado a Java, 
+									   sería una pérdida de tiempo para mí (no juzgo a otras personas), y yo podría aprovechar 
+									   dicho tiempo para mejorar mis nociones de C, C#, Javascript, etc., o algunos de sus frameworks,
+									   o aprender Go/Python/etc.
+									</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="card_section">
+                        <input type="checkbox" id="toggle-other-technologies" class="toggle">
+                        <label for="toggle-other-technologies" class="icon">
+                            <h3>Other Languages and technologies</h3>
+                        </label>
+                        <div class="card_list">
+                            <div class="card_block">
+                                <button type="button" class="collapsible">SQL
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>SQL es algo que he tocado un poco en varios trabajos. En los dos primeros que referencio aquí,
+										solo pequeñas consultas. En el último, el 80% del trabajo fue con PL-SQL y Oracle
+									</p>
+									<p class="xp">Slot og gods, 2016<br>
+										Lundagatan, 2017<br>
+                                        Dome, 2019
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Markdown
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Markdown es un leguaje maravilloso para documentación. Pese a que no lo he usado nunca a nivel 
+									   profesional (sí he escrito documentación técnica, pero era en google docs), sí que uso Markdown 
+									   a diario en mi diario, notas, y apuntes personales. <br>
+									   He de evaluar mi nivel de Markdown, pero creo que es bastante decente.
+									</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Docker (dockerfile/compose)
+                                    <div class="score" style="color:  hsl(0 100% 28% / 1);">86%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 60%;"></span>
+                                        <span class="bar med" style="width: 25%;"></span>
+                                        <span class="bar max" style="width: 1%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>A parte de múltiples cursos en distintas plataformas(skillshare, youtube, Pluralsight, etc). 
+									   Estuve casi 1 año entero haciendo prácticas con contenedores en mis propios servidores, e hice
+									   cientos de laboratorios en Katakoda, O'reilly, y otra plataforma que ahora no recuerdo.<br>
+									   Los laboratorios se hacían junto con Kubernetes en paralelo.
+									 </p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Terraform
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Además de las prácticas que hice con Docker y Kubernetes, monté un grupo de servidores,
+									   e hice muchas prácticas también con Terraform. Facilitaba mucho la instalación de servidores, 
+									   sistemas operativos, integración inicial del cloud-config, etc.</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Cloud config
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Aquí no hay mucho que comentar. Simplemente, dentro de las prácticas con Terraform, tuve 
+									   que crear muchas configuraciones de cloud-config( creación de usuarios, permisos, copias de ficheros, apt install, etc.)
+									</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Batch & Bash
+                                    <div class="score" style="color: green;">60%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 62%;"></span>
+                                        <span class="bar med" style="width: 12%;"></span>
+                                        <span class="bar max" style="width: 12%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Toda una vida usando ambas, y creando pequeños scripts. Más conocimientos de Batch que de Bash.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="card_section">
+                        <input type="checkbox" id="toggle-other-skills" class="toggle">
+                        <label for="toggle-other-skills" class="icon">
+                            <h3>Other Business Skills</h3>
+                        </label>
+                        <div class="card_list">
+                            <div class="card_block">
+                                <button type="button" class="collapsible">E-mail Marketing
+                                    <div class="score" style="color: green;">15%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 15%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Parte de las estrategias comerciales de las empresas con las que he trabajado requerían 
+									   hacer bastantes temas de marketing por email.</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">SEO
+                                    <div class="score" style="color: green;">10%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 10%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>Mis conocimientos de SEO son bastante limitados y oscuros. Trabajando codo con codo con los departamentos 
+									   de marketing de varias empresas, terminé por trabajar con web-trackers desconocidos que nadie quería tocar (por su dificultad, y el no servir mucho para el CV).
+									   Además, el personal de marketing me impartió un par de formaciones de marketing para ampliar mi conocimiento, ya que trabajábamos juntos con bastante frecuencia.
+									</p>
+                                </div>
+                            </div>
+                            <div class="card_block">
+                                <button type="button" class="collapsible">Otros
+                                    <div class="score" style="color: green;">0%</div>
+                                    <div class="bar_base">
+                                        <span class="bar min" style="width: 0%;"></span>
+                                        <span class="bar med" style="width: 0%;"></span>
+                                        <span class="bar max" style="width: 0%;"></span>
+                                    </div>
+                                </button>
+                                <div class="card_content">
+                                    <p>&emsp;Future Content Here!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+            </div>
+        </section>
+        <section id="certs" class="profiles">
+            <div class="wrapper">
+                <h2>Study Profiles</h2>
+                <div>
+                    <p>
+                        Además de las copias (y capturas) de algunos de mis certificados, que les mostré previamente,
+                        aquí, les adjunto los enlaces a mis perfiles de estudios en distintas webs. Esto, les permitirá
+                        consultar en tiempo real el estado y la evolución de los estudios y certificados que vaya completando.
+                    </p>
+                    <span>
+                        Programación: Pluralsight, Sololearn & Skillshare.
+                    </span>
+                    <span>
+                        Alemán: Busuu, Duolingo & Xeropan.
+                    </span>
+                </div>
+                <div class="profile_links">
+                    <a href="https://app.pluralsight.com/profile/jjmdev" target="_blank"><img src="img/QR Code - Pluralsight.svg" alt="QR Code"> Pluralsight </a>
+                    <a href="https://www.sololearn.com/profile/27998195" target="_blank"><img src="img/QR Code - Sololearn.svg" alt="QR Code"> Sololearn </a>
+                    <a href="https://www.duolingo.com/profile/JorgeJMart77" target="_blank"><img src="img/QR Code - Duolingo.svg" alt="QR Code"> Duolingo </a>
+                    <a href="https://www.busuu.com/dashboard#/profile/115193183/progress" target="_blank"><img src="img/QR Code - Busuu.svg" alt="QR Code"> Busuu </a>
+                    <a href="#" class="not_in_use"><img src="img/blank_qr_code.png" alt="QR Code"><span>Xeropan</span></a>
+                    <a href="#" class="not_in_use"><img src="img/blank_qr_code.png" alt="QR Code"><span>Skillshare</span></a>
+                </div>
+                <div>
+                    <span>
+                        NOTA: En Busuu y Duolingo se necesita hacer login para poder ver el estado <strong>completo</strong> de otros usuarios.
+                        Hacer login son 3 segundos usando una cuenta de google.
+                        (Con ellas podrían ver a futuros candidatos).
+                    </span>
+                </div>
+                <p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+                <p id="copy">Copyright 2023 Berlin &copy; Jorge Martinez</p>
+                <hr>
+            </div>
+        </section>
+        <section id="About">
+            <div class="wrapper">
+                <h2>About this page...</h2>
+                <div>
+                    This page has been built using the following techniques and technologies:<br>
+                    - Clean code good practices.<br>
+                    - CSS flex.<br><br>
+                    In some cases obsolete or sub-optimal techniques have been used, just to showcase a range of knowledge, instead of being practical.<br>
+                    In reality, I would not mix and match that many techniques as it is a bit dirty, lower performant, unlcear, etc.<br><br>
+                    This page has been (and might be) hosted through:<br>
+                    - nginx<br>
+                    - docker containers (using dockerfiles and docker-compose.yml files.)<br>
+                    - PHP<br>
+                    - MySQL to store data tables and things like that.<br>
+                    - MongoDB to store objects.<br>
+                </div>
+                <h2>Future projects</h2>
+                <div>
+                    The idea is to use this webpage as a showcase of my abilities. Therefore, the future of this page is:
+                    <p>Having a technical blog with all the changes and techniques applied to the site.</p>
+                    <p>A porforlio of exammple pages, with diferent styles, animations, purposes (login, corporate page, personal blog, profile, shopping cart, etc.) </p>
+                </div>
+                <p class="to_top"><a href="#hero"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></p>
+            </div>
+            <div class="about_image"><img src="img/coffee-732x549.png" alt="Contact George"></div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer_image"><img src="img/coffee-732x549.png" alt="Contact George"></div>
+            <div class="footer_details">
+                <div><i class="fa fa-user" aria-hidden="true"></i>
+                    <p>Jorge Martinez<p>
+                </div>
+                <div><i class="fa-solid fa-envelope shaked" aria-hidden="true"></i>
+                    <a href="mailto:jorge.martinez.work@gmail.com">jorge.martinez.work@gmail.com</a></div>
+                <div><i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>0034651909354</p>
+                </div>
+            </div>
+            <div class="footer_details language">
+                <nav>
+                    <ul>
+                        <li class="esp"><span><img src="https://img.icons8.com/color/16/null/spain.png" alt="Spain flag"></span>&nbsp;&nbsp;<span class="language_text">Español</span></li>
+                        <li class="eng"><span><img src="https://img.icons8.com/color/16/null/great-britain.png" alt="UK flag"></span>&nbsp;&nbsp;<span class="language_text"> English</span></li>
+                        <li class="fra"><span><img src="https://img.icons8.com/color/16/null/france.png" alt="France flag"></span>&nbsp;&nbsp;<span class="language_text"> Français</span></li>
+                        <li class="ita"><span><img src="https://img.icons8.com/color/16/null/italy.png" alt="Italy flag"></span>&nbsp;&nbsp;<span class="language_text"> Italiano</span></li>
+                        <li class="deu"><span><img src="https://img.icons8.com/color/16/null/germany.png" alt="Germany flag"></span>&nbsp;&nbsp;<span class="language_text"> Deutsch</span></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                    //   css (content, {
+                    // 	display: 'block',
+
+                    //   });
+                    // content.style.cssText += 'height: 1vh + 30px';
+                }
+            });
+        }
+    </script>
 </body>
+
 </html>
