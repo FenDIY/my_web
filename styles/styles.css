@@ -58,7 +58,7 @@
 
     --black_dark: hsl(223, var(--dark_Sat), var(--dark_L));
     --black_mid: hsl(0, var(--mid_Sat), var(--mid_L));
-    --black_light: hsl(0, var(--light));
+    --black_light: hsl(0, var(--bright_Sat), var(--bright_L));
 
     --white: hsl(0deg 0% 86%);
 	--black: hsl(0 0% 8% / 1);
@@ -537,7 +537,6 @@ main {
 #hero {
     color: black;
     background-color: var(--blue_dark);
-    max-width: 1500xp;
 }
 
 .call_to_action_wrapper {
@@ -1177,6 +1176,7 @@ section#About {
         margin: 0;
         gap: 0;
     }
+}
 
     .shaked {
         animation: shaking 0.8s infinite;
@@ -1270,7 +1270,7 @@ section#About {
         gap: 1rem 2.5rem;
     }
 
-    .post_wrapper. .post_content {
+    .post_wrapper .post_content {
         min-width: 180px;
         flex: 3;
     }
@@ -1308,6 +1308,6 @@ section#About {
         max-width: 180px;
     }
 
-i.fa.fa-chevron-up {
-    color: hsl(105, 100%, 61%);
-}
+    i.fa.fa-chevron-up {
+        color: hsl(105, 100%, 61%);
+    }
